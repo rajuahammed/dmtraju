@@ -193,7 +193,7 @@ img {
 
 /*header-area*/
 .header-area {
-	padding-top: 75px;
+	padding-top: 70px;
 	padding-bottom: 10px;
 	background: #fcdb00;
 }
@@ -313,7 +313,7 @@ img {
 	font-size: 22px;
 	color: #010101;
 	font-weight: 400;
-	padding-bottom: 20px;
+	padding-bottom: 10px;
 }
 
 .single-image p {
@@ -363,22 +363,19 @@ img {
 }
 
 .subscribe-input {
-	position: relative;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+
 }
 
-.subscribe-input input {
-	font-size: 16px;
-	color: #898989;
-	font-weight: 300;
-	padding: 0 10px;
-	width: 100%;
-	line-height: 50px;
-	background: #fff;
-	border-radius: 8px;
+.subscribe-input input.form-control {
+	margin-right: 20px;
 }
 
 .subscribe-input a {
-	position: absolute;
 	font-size: 16px;
 	color: #010101;
 	font-weight: 600;
@@ -387,9 +384,8 @@ img {
 	line-height: 50px;
 	padding: 3px 50px;
 	background: #fcdb00;
-	border-radius: 8px;
-	right: -170px;
-	bottom: 0;
+	border-radius: 6px;
+
 }
 
 
@@ -535,7 +531,7 @@ img {
 	position: absolute;
 	right: 10px;
 	text-decoration: none;
-	top: -29px;
+	top: -160px;
 	border-radius: 0;
 }
 
@@ -605,21 +601,6 @@ img {
 		position: relative;
 	}
 
-	.subscribe-input a {
-		position: relative;
-		font-size: 16px;
-		color: #010101;
-		font-weight: 600;
-		font-family: 'PT Sans', sans-serif;
-		text-transform: uppercase;
-		line-height: 50px;
-		padding: 14px 50px;
-		background: #fcdb00;
-		border-radius: 8px;
-		left: 0;
-		top: 20px;
-	}
-
 	.footer-area {
 		padding-bottom: 0px;
 
@@ -641,7 +622,22 @@ img {
 		display: none;
 	}
 
+	.header-area {
+		padding-top: 35px;
+	}
 
+	.single-vintage-items {
+		padding-top: 20px;
+	}
+
+	.vintage-vending-title {
+		padding-bottom: 30px;
+	}
+
+	.vintage-vending-area {
+		padding-top: 80px;
+		padding-bottom: 80px;
+	}
 
 
 }
